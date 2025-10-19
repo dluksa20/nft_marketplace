@@ -3,7 +3,7 @@
     "node": ">=16.0.0",
     "npm": ">=7.0.0"
   },
-  "name": "openNFT",
+  "name": "opennft",
   "scripts": {
     "build": "npm run build --workspaces --if-present",
     "prebuild": "npm run prebuild --workspaces --if-present",
@@ -14,5 +14,21 @@
   "type": "module",
   "workspaces": [
     "src/openNFT_frontend"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.60.0",
+    "react-router": "^7.7.0",
+    "react-router-dom": "^7.7.0"
+  },
+  "version": "1.0.0",
+  "description": "Welcome to your new `openNFT` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
